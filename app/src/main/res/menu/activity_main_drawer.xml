@@ -7,7 +7,19 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_tablero"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_menu_dashboard"
             android:title="@string/menu_tablero" />
+        <item
+            android:id="@+id/nav_cuenta"
+            android:icon="@drawable/ic_menu_account"
+            android:title="@string/menu_cuenta" />
+        <item
+            android:id="@+id/nav_cursos"
+            android:icon="@drawable/ic_menu_course"
+            android:title="@string/menu_cursos" />
+        <item
+            android:id="@+id/nav_calendario"
+            android:icon="@drawable/ic_menu_calendar"
+            android:title="@string/menu_calendario" />
     </group>
 </menu>
